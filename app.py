@@ -1,8 +1,9 @@
 # PROYECTO FINAL
 # Realizado por: Maria Elena Guevara
+pip install streamlit
 import streamlit as st
 import pandas as pd
-import statsmodels as sm
+import statsmodels.api as sm
 
 # Título de la aplicación
 st.title("Generador de Gráficos, Modelos Descriptivos y Análisis de Regresión")
